@@ -1,0 +1,17 @@
+1RETENSI         : RA.1B/6B/10T                LAPORAN TRANSAKSI VIA E-BANKING & COUNTER                         FREKWENSI :   HARIAN
+ LAPORAN         : R-5401                             UNTUK PERUSAHAAN KERJASAMA                                 TANGGAL   : 08/05/26
+ CABANG          : 0000205-KCU MENARA BCA                                                                        HALAMAN   :        1
+ NAMA PERUSAHAAN : 20808-JASAMARGA TOLLROAD OPERA                                                                                    
+ ====================================================================================================================================
+ NO.   NO.PELANGGAN/NO.TXN   NAMA PELANGGAN         NILAI TRANSAKSI      TGL. TXN    WAKTU   LOKASI     KETERANGAN1     KETERANGAN2  
+ ====================================================================================================================================
+                                                                                                                                     
+ SUB-COMP 00000                                                                                                                      
+     1  00500154679         Muhamad Harun     IDR             54,775.00  08/05/26  08:20:47  9503N  32326132401      -               
+     2  00500166785         xpatriat 84       IDR            104,775.00  08/05/26  12:30:38  9501N  32615868901      -               
+      SUB TOTAL TRANSAKSI    IDR        :       2                                                                                    
+      SUB TOTAL NILAI TRANSAKSI         :  IDR          159,550.00                                                                   
+                                                                                                                                     
+      TOTAL TRANSAKSI        IDR        :       2                                                                                    
+      TOTAL NILAI TRANSAKSI             :  IDR          159,550.00                                                                   
+                                                                                                                                     

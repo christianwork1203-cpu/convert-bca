@@ -1,0 +1,22 @@
+1RETENSI         : RA.1B/6B/10T                LAPORAN TRANSAKSI VIA E-BANKING & COUNTER                         FREKWENSI :   HARIAN
+ LAPORAN         : R-5401                             UNTUK PERUSAHAAN KERJASAMA                                 TANGGAL   : 13/05/26
+ CABANG          : 0000205-KCU MENARA BCA                                                                        HALAMAN   :        1
+ NAMA PERUSAHAAN : 20808-JASAMARGA TOLLROAD OPERA                                                                                    
+ ====================================================================================================================================
+ NO.   NO.PELANGGAN/NO.TXN   NAMA PELANGGAN         NILAI TRANSAKSI      TGL. TXN    WAKTU   LOKASI     KETERANGAN1     KETERANGAN2  
+ ====================================================================================================================================
+                                                                                                                                     
+ SUB-COMP 00000                                                                                                                      
+     1  00500177784         Tulus Prihadi     IDR            105,775.00  13/05/26  04:30:16  9503N  38862591701      -               
+     2  00500144337         denny prasetyo    IDR            204,775.00  13/05/26  07:04:34  9503N  38928266101      -               
+     3  00500160475         denny prasetyo    IDR             54,775.00  13/05/26  07:08:03  9503N  38930658501      -               
+     4  00500161769         Dharmawan Lesman  IDR             25,775.00  13/05/26  11:27:52  9503N  39191196001      -               
+     5  00500161704         Aris Januari      IDR            205,775.00  13/05/26  15:55:42  9503N  39500151901      -               
+     6  00500194450         Sam Syaputra      IDR            104,775.00  13/05/26  17:10:15  9527N  39584996501      -               
+     7  00500166229         Hasta Invarian    IDR             55,775.00  13/05/26  23:02:28  9503N  40028376801      -               
+      SUB TOTAL TRANSAKSI    IDR        :       7                                                                                    
+      SUB TOTAL NILAI TRANSAKSI         :  IDR          757,425.00                                                                   
+                                                                                                                                     
+      TOTAL TRANSAKSI        IDR        :       7                                                                                    
+      TOTAL NILAI TRANSAKSI             :  IDR          757,425.00                                                                   
+                                                                                                                                     

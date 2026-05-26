@@ -1,0 +1,22 @@
+1RETENSI         : RA.1B/6B/10T                LAPORAN TRANSAKSI VIA E-BANKING & COUNTER                         FREKWENSI :   HARIAN
+ LAPORAN         : R-5401                             UNTUK PERUSAHAAN KERJASAMA                                 TANGGAL   : 25/05/26
+ CABANG          : 0000205-KCU MENARA BCA                                                                        HALAMAN   :        1
+ NAMA PERUSAHAAN : 20808-JASAMARGA TOLLROAD OPERA                                                                                    
+ ====================================================================================================================================
+ NO.   NO.PELANGGAN/NO.TXN   NAMA PELANGGAN         NILAI TRANSAKSI      TGL. TXN    WAKTU   LOKASI     KETERANGAN1     KETERANGAN2  
+ ====================================================================================================================================
+                                                                                                                                     
+ SUB-COMP 00000                                                                                                                      
+     1  00500136423         jaya              IDR             29,775.00  24/05/26  22:30:54  9527N  53719830301      -               
+     2  00500163935         Agus Kurniawan    IDR             54,775.00  25/05/26  02:49:37  9527N  53870914301      -               
+     3  00500164976         Agus Kurniawan    IDR            104,775.00  25/05/26  02:53:07  9527N  53871883901      -               
+     4  00500120393         Sendy Bramono     IDR             55,775.00  25/05/26  06:32:46  9527N  53949536201      -               
+     5  00500165857         agam              IDR             24,775.00  25/05/26  12:14:39  9503N  54347134301      -               
+     6  00500187267         Tatang Rikardo    IDR             24,775.00  25/05/26  20:40:10  9503N  55247647601      -               
+     7  00500138189         acep waini munir  IDR            205,775.00  25/05/26  21:44:17  9503N  55329667301      -               
+      SUB TOTAL TRANSAKSI    IDR        :       7                                                                                    
+      SUB TOTAL NILAI TRANSAKSI         :  IDR          500,425.00                                                                   
+                                                                                                                                     
+      TOTAL TRANSAKSI        IDR        :       7                                                                                    
+      TOTAL NILAI TRANSAKSI             :  IDR          500,425.00                                                                   
+                                                                                                                                     

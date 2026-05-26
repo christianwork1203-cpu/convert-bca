@@ -1,0 +1,22 @@
+1RETENSI         : RA.1B/6B/10T                LAPORAN TRANSAKSI VIA E-BANKING & COUNTER                         FREKWENSI :   HARIAN
+ LAPORAN         : R-5401                             UNTUK PERUSAHAAN KERJASAMA                                 TANGGAL   : 16/05/26
+ CABANG          : 0000205-KCU MENARA BCA                                                                        HALAMAN   :        1
+ NAMA PERUSAHAAN : 20808-JASAMARGA TOLLROAD OPERA                                                                                    
+ ====================================================================================================================================
+ NO.   NO.PELANGGAN/NO.TXN   NAMA PELANGGAN         NILAI TRANSAKSI      TGL. TXN    WAKTU   LOKASI     KETERANGAN1     KETERANGAN2  
+ ====================================================================================================================================
+                                                                                                                                     
+ SUB-COMP 00000                                                                                                                      
+     1  00500188146         Trio Kasandrasap  IDR             55,775.00  16/05/26  02:16:00  9503N  42644369401      -               
+     2  00500147550         Faisal Dwi        IDR            105,775.00  16/05/26  06:44:50  9503N  42725528701      -               
+     3  00500120182         Amier Comprank    IDR             54,775.00  16/05/26  08:04:56  9503N  42775091001      -               
+     4  00500134851         Amier Comprank    IDR             54,775.00  16/05/26  08:16:49  9503N  42784304201      -               
+     5  00500160972         Aldo              IDR            105,775.00  16/05/26  13:22:18  9527N  43101487701      -               
+     6  00500156504         Restu Putra       IDR            105,775.00  16/05/26  14:33:19  9503N  43177632701      -               
+     7  00500121580         Saiful Hidayat    IDR            105,775.00  16/05/26  18:28:08  9503N  43447990101      -               
+      SUB TOTAL TRANSAKSI    IDR        :       7                                                                                    
+      SUB TOTAL NILAI TRANSAKSI         :  IDR          588,425.00                                                                   
+                                                                                                                                     
+      TOTAL TRANSAKSI        IDR        :       7                                                                                    
+      TOTAL NILAI TRANSAKSI             :  IDR          588,425.00                                                                   
+                                                                                                                                     

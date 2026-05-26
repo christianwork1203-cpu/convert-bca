@@ -1,0 +1,25 @@
+1RETENSI         : RA.1B/6B/10T                LAPORAN TRANSAKSI VIA E-BANKING & COUNTER                         FREKWENSI :   HARIAN
+ LAPORAN         : R-5401                             UNTUK PERUSAHAAN KERJASAMA                                 TANGGAL   : 10/05/26
+ CABANG          : 0000205-KCU MENARA BCA                                                                        HALAMAN   :        1
+ NAMA PERUSAHAAN : 20808-JASAMARGA TOLLROAD OPERA                                                                                    
+ ====================================================================================================================================
+ NO.   NO.PELANGGAN/NO.TXN   NAMA PELANGGAN         NILAI TRANSAKSI      TGL. TXN    WAKTU   LOKASI     KETERANGAN1     KETERANGAN2  
+ ====================================================================================================================================
+                                                                                                                                     
+ SUB-COMP 00000                                                                                                                      
+     1  00500148539         Mlukmanto         IDR             25,775.00  10/05/26  00:50:38  9503N  34814574301      -               
+     2  00500131170         Ayik Ainurrohman  IDR            205,775.00  10/05/26  02:23:25  9503N  34859976001      -               
+     3  00500169396         Bagas Wahyu       IDR            105,775.00  10/05/26  02:55:04  9503N  34871005901      -               
+     4  00500120260         Qiaksl Nakoal     IDR            405,775.00  10/05/26  05:40:21  9503N  34921751001      -               
+     5  00500174392         Balya Muhyiddin   IDR             55,775.00  10/05/26  11:27:22  9503N  35200201801      -               
+     6  00500166239         Agung Sukma maul  IDR             25,775.00  10/05/26  11:52:12  9503N  35228729901      -               
+     7  00500133361         Rapi Ardiwinata   IDR             55,775.00  10/05/26  12:23:49  9527N  35267388401      -               
+     8  00500130488         Rapi Ardiwinata   IDR             55,775.00  10/05/26  12:25:24  9527N  35269313101      -               
+     9  00500173725         Rapi Ardiwinata   IDR             55,775.00  10/05/26  12:26:45  9527N  35271014401      -               
+    10  00500127725         Sandi Yudha       IDR             54,775.00  10/05/26  19:55:39  9503N  35803677301      -               
+      SUB TOTAL TRANSAKSI    IDR        :      10                                                                                    
+      SUB TOTAL NILAI TRANSAKSI         :  IDR        1,046,750.00                                                                   
+                                                                                                                                     
+      TOTAL TRANSAKSI        IDR        :      10                                                                                    
+      TOTAL NILAI TRANSAKSI             :  IDR        1,046,750.00                                                                   
+                                                                                                                                     

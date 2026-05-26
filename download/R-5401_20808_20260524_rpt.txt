@@ -1,0 +1,16 @@
+1RETENSI         : RA.1B/6B/10T                LAPORAN TRANSAKSI VIA E-BANKING & COUNTER                         FREKWENSI :   HARIAN
+ LAPORAN         : R-5401                             UNTUK PERUSAHAAN KERJASAMA                                 TANGGAL   : 24/05/26
+ CABANG          : 0000205-KCU MENARA BCA                                                                        HALAMAN   :        1
+ NAMA PERUSAHAAN : 20808-JASAMARGA TOLLROAD OPERA                                                                                    
+ ====================================================================================================================================
+ NO.   NO.PELANGGAN/NO.TXN   NAMA PELANGGAN         NILAI TRANSAKSI      TGL. TXN    WAKTU   LOKASI     KETERANGAN1     KETERANGAN2  
+ ====================================================================================================================================
+                                                                                                                                     
+ SUB-COMP 00000                                                                                                                      
+     1  00500198765         062_William Juna  IDR             54,775.00  23/05/26  22:12:40  9527N  52520511501      -               
+      SUB TOTAL TRANSAKSI    IDR        :       1                                                                                    
+      SUB TOTAL NILAI TRANSAKSI         :  IDR           54,775.00                                                                   
+                                                                                                                                     
+      TOTAL TRANSAKSI        IDR        :       1                                                                                    
+      TOTAL NILAI TRANSAKSI             :  IDR           54,775.00                                                                   
+                                                                                                                                     

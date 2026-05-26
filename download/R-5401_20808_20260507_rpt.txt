@@ -1,0 +1,22 @@
+1RETENSI         : RA.1B/6B/10T                LAPORAN TRANSAKSI VIA E-BANKING & COUNTER                         FREKWENSI :   HARIAN
+ LAPORAN         : R-5401                             UNTUK PERUSAHAAN KERJASAMA                                 TANGGAL   : 07/05/26
+ CABANG          : 0000205-KCU MENARA BCA                                                                        HALAMAN   :        1
+ NAMA PERUSAHAAN : 20808-JASAMARGA TOLLROAD OPERA                                                                                    
+ ====================================================================================================================================
+ NO.   NO.PELANGGAN/NO.TXN   NAMA PELANGGAN         NILAI TRANSAKSI      TGL. TXN    WAKTU   LOKASI     KETERANGAN1     KETERANGAN2  
+ ====================================================================================================================================
+                                                                                                                                     
+ SUB-COMP 00000                                                                                                                      
+     1  00500114581         denny prasetyo    IDR            205,775.00  07/05/26  08:35:53  9503N  30995250501      -               
+     2  00500139642         Viviana Putri     IDR             54,775.00  07/05/26  09:20:07  9527N  31040602301      -               
+     3  00500123895         xpatriat 84       IDR            104,775.00  07/05/26  12:59:18  9501N  31305122501      -               
+     4  00500123974         Qiaksl Nakoal     IDR             24,775.00  07/05/26  16:39:23  9503N  31563644901      -               
+     5  00500165123         sapranss          IDR             54,775.00  07/05/26  19:11:52  9527N  31753619201      -               
+     6  00500178828         ahmad insan       IDR             24,475.00  07/05/26  19:15:36  9503N  31758652501      -               
+     7  00500125416         Tri OutSider      IDR             55,775.00  07/05/26  19:43:29  9503N  31796404901      -               
+      SUB TOTAL TRANSAKSI    IDR        :       7                                                                                    
+      SUB TOTAL NILAI TRANSAKSI         :  IDR          525,125.00                                                                   
+                                                                                                                                     
+      TOTAL TRANSAKSI        IDR        :       7                                                                                    
+      TOTAL NILAI TRANSAKSI             :  IDR          525,125.00                                                                   
+                                                                                                                                     
