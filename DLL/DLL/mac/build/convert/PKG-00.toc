@@ -1,0 +1,74 @@
+('/Users/christianwork/Library/CloudStorage/OneDrive-Personal/JMTO/BCA VA data '
+ 'rekon/data rekon/convert BCA/DLL/DLL/mac/build/convert/convert.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   '/Users/christianwork/Library/CloudStorage/OneDrive-Personal/JMTO/BCA VA '
+   'data rekon/data rekon/convert BCA/DLL/DLL/mac/build/convert/PYZ-00.pyz',
+   'PYZ'),
+  ('python3.9/lib-dynload/_struct.cpython-39-darwin.so',
+   '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_struct.cpython-39-darwin.so',
+   'EXTENSION'),
+  ('python3.9/lib-dynload/zlib.cpython-39-darwin.so',
+   '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/zlib.cpython-39-darwin.so',
+   'EXTENSION'),
+  ('struct',
+   '/Users/christianwork/Library/CloudStorage/OneDrive-Personal/JMTO/BCA VA '
+   'data rekon/data rekon/convert '
+   'BCA/DLL/DLL/mac/build/convert/localpycs/struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   '/Users/christianwork/Library/CloudStorage/OneDrive-Personal/JMTO/BCA VA '
+   'data rekon/data rekon/convert '
+   'BCA/DLL/DLL/mac/build/convert/localpycs/pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   '/Users/christianwork/Library/CloudStorage/OneDrive-Personal/JMTO/BCA VA '
+   'data rekon/data rekon/convert '
+   'BCA/DLL/DLL/mac/build/convert/localpycs/pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   '/Users/christianwork/Library/CloudStorage/OneDrive-Personal/JMTO/BCA VA '
+   'data rekon/data rekon/convert '
+   'BCA/DLL/DLL/mac/build/convert/localpycs/pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   '/Users/christianwork/Library/CloudStorage/OneDrive-Personal/JMTO/BCA VA '
+   'data rekon/data rekon/convert '
+   'BCA/.venv/lib/python3.9/site-packages/PyInstaller/loader/pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   '/Users/christianwork/Library/CloudStorage/OneDrive-Personal/JMTO/BCA VA '
+   'data rekon/data rekon/convert '
+   'BCA/.venv/lib/python3.9/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   '/Users/christianwork/Library/CloudStorage/OneDrive-Personal/JMTO/BCA VA '
+   'data rekon/data rekon/convert '
+   'BCA/.venv/lib/python3.9/site-packages/PyInstaller/hooks/rthooks/pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   '/Users/christianwork/Library/CloudStorage/OneDrive-Personal/JMTO/BCA VA '
+   'data rekon/data rekon/convert '
+   'BCA/.venv/lib/python3.9/site-packages/PyInstaller/hooks/rthooks/pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('convert',
+   '/Users/christianwork/Library/CloudStorage/OneDrive-Personal/JMTO/BCA VA '
+   'data rekon/data rekon/convert BCA/DLL/convert.py',
+   'PYSOURCE')],
+ 'Python3',
+ True,
+ False,
+ False,
+ [],
+ 'arm64',
+ None,
+ None)
