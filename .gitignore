@@ -1,2 +1,4 @@
 download/
 result/
+.venv/
+venv/
