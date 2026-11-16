@@ -2,7 +2,6 @@ import re
 import os
 import glob
 import pandas as pd
-from collections import defaultdict
 import sys
 
 try:
@@ -139,10 +138,11 @@ try:
             continue
 
         # =========================================
-        # GROUP TRANSACTION PER TANGGAL
+        # SEMUA TRANSAKSI MASUK KE FILE TANGGAL REPORT
+        # (tidak dipindah ke tanggal transaksi lain)
         # =========================================
 
-        grouped_transactions = defaultdict(list)
+        transactions = []
 
         with open(txt_file, 'r', encoding='utf-8') as file:
 
@@ -176,20 +176,10 @@ try:
                     )
 
                     # =========================================
-                    # FORMAT YYYYMMDD
-                    # =========================================
-
-                    trx_date = (
-                        "20" + raw_date[6:8] +
-                        raw_date[3:5] +
-                        raw_date[0:2]
-                    )
-
-                    # =========================================
                     # STORE DATA
                     # =========================================
 
-                    grouped_transactions[trx_date].append({
+                    transactions.append({
 
                         "NO.PELANGGAN/NO.TXN":
                             "20808" + match.group(2),
@@ -214,25 +204,15 @@ try:
                     })
 
         # =========================================
-        # TRACK MOVE STATUS
+        # EXPORT CSV (hanya ke file tanggal report)
         # =========================================
 
-        moved_to_other_date = False
-        main_date_has_transaction = False
+        if transactions:
 
-        # =========================================
-        # EXPORT CSV
-        # =========================================
-
-        for trx_date, rows in grouped_transactions.items():
-
-            # =========================================
-            # FINAL ROWS + RESET NOMOR
-            # =========================================
-
+            # FINAL ROWS + NOMOR
             final_rows = []
 
-            for index, row in enumerate(rows, start=1):
+            for index, row in enumerate(transactions, start=1):
 
                 final_row = {
                     "No": index
@@ -242,95 +222,18 @@ try:
 
                 final_rows.append(final_row)
 
-            # =========================================
-            # DATAFRAME
-            # =========================================
-
             df = pd.DataFrame(final_rows)
 
-            # =========================================
-            # OUTPUT CSV
-            # =========================================
-
-            output_csv_name = f"VABCA_{trx_date}.csv"
-
-            output_csv_path = os.path.join(
-                output_folder,
-                output_csv_name
+            df.to_csv(
+                main_csv_path,
+                index=False
             )
-
-            # =========================================
-            # APPEND EXISTING FILE
-            # =========================================
-
-            if os.path.exists(output_csv_path) \
-               and output_csv_path != main_csv_path:
-
-                existing_df = pd.read_csv(
-                    output_csv_path,
-                    dtype=str
-                )
-
-                combined_df = pd.concat(
-                    [existing_df, df],
-                    ignore_index=True
-                )
-
-                # reset nomor ulang
-                combined_df["No"] = range(
-                    1,
-                    len(combined_df) + 1
-                )
-
-                combined_df.to_csv(
-                    output_csv_path,
-                    index=False
-                )
-
-            else:
-
-                df.to_csv(
-                    output_csv_path,
-                    index=False
-                )
-
-            # =========================================
-            # DETECT MOVE DATE
-            # =========================================
-
-            if trx_date != report_date:
-
-                moved_to_other_date = True
-
-                summary_messages.append(
-                    f"MOVE : {main_csv_name} -> {output_csv_name}"
-                )
-
-            else:
-
-                main_date_has_transaction = True
-
-                moved_to_other_date = True
-
-                summary_messages.append(
-                    f"MOVE : {main_csv_name} -> {output_csv_name}"
-                )
-
-        # =========================================
-        # EMPTY / CREATE STATUS
-        # =========================================
-
-        if main_date_has_transaction:
 
             summary_messages.append(
                 f"CREATE : {main_csv_name}"
             )
 
         else:
-
-            # hapus file kosong jika sempat dibuat
-            if os.path.exists(main_csv_path):
-                os.remove(main_csv_path)
 
             summary_messages.append(
                 f"EMPTY : {main_csv_name} NOT CREATED"

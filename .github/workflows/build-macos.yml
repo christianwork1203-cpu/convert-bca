@@ -1,0 +1,56 @@
+name: Build macOS (mac_BCA)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "DLL/convert.py"
+      - ".github/workflows/build-macos.yml"
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        include:
+          - runner: macos-15        # Apple Silicon (M1/M2/M3/M4)
+            arch: arm64
+          - runner: macos-15-intel  # Mac Intel
+            arch: intel
+    runs-on: ${{ matrix.runner }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pandas pyinstaller
+
+      - name: Build executable
+        run: pyinstaller --onefile --console --clean --name mac_BCA DLL/convert.py
+
+      # Data dummy (data asli tidak di-upload ke GitHub)
+      - name: Smoke test
+        run: |
+          mkdir -p test/download
+          cp dist/mac_BCA test/
+          printf '     1  1234567890  CONTOH PELANGGAN  IDR   24,775.00  14/11/26  07:10:20  9527N  71108344601  -\n' \
+            > test/download/R-5401_20808_20261114_rpt.txt
+          echo "" | ./test/mac_BCA
+          cat test/result/va/bca/VABCA_20261114.csv
+
+      # tar.gz supaya izin eksekusi (chmod +x) tidak hilang
+      - name: Package
+        run: |
+          mkdir -p pkg/download
+          cp dist/mac_BCA pkg/
+          chmod +x pkg/mac_BCA
+          tar -czf mac_BCA_${{ matrix.arch }}.tar.gz -C pkg mac_BCA download
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mac_BCA_${{ matrix.arch }}
+          path: mac_BCA_${{ matrix.arch }}.tar.gz
